@@ -1,0 +1,13 @@
+server:
+  port: 8889
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:2007/FruitApp?createDatabaseIfNotExist=true
+    username: root
+    password: password
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    open-in-view: false
+
